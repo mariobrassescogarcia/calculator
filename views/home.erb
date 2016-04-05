@@ -7,60 +7,20 @@
 <body>
 	<h1>Welcome to the awesome calculator!</h1>
 
-	<div>
 
-		<form action="/calculate_add" method="POST">
 
-			<input type = "number" name = "first_number"placeholder = "1st number">										+
+	<form action="/calculate" method="POST">
+
+			<input type = "number" name = "first_number" placeholder = "1st number">										
 			<input type = "number" name = "second_number" placeholder = "2nd number">
-			<button type="submit">ADD</button>
-
-		</form>
-
-
-	</div>
-
-
-	<div>
-
-		<form action="/calculate_substraction" method="POST">
-	
-			<input type = "number" name = "first_number"placeholder = "1st number">										-
-			<input type = "number" name = "second_number" placeholder = "2nd number">
-			<button type="submit">SUBSTRACT</button>
-
-		</form>
+			<button type="submit" name="operation" value= "addition">ADD</button>
+			<button type="submit" name="operation" value="substraction">SUBSTRACT</button>
+			<button type="submit" name="operation" value="multiplication">MULTIPLY</button>
+			<button type="submit" name="operation" value="division">DIVIDE</button>
+	</form>
 
 
-	</div>
 
-
-	<div>
-
-		<form action="/calculate_multiplication" method="POST">
-	
-			<input type = "number" name = "first_number"placeholder = "1st number">									x
-			<input type = "number" name = "second_number" placeholder = "2nd number">
-			<button type="submit">MULTIPLY</button>
-
-		</form>
-
-
-	</div>
-
-
-	<div>
-
-		<form action="/calculate_division" method="POST">
-
-			<input type = "number" name = "first_number"placeholder = "1st number">									/
-			<input type = "number" name = "second_number" placeholder = "2nd number">
-			<button type="submit">DIVIDE</button>
-
-		</form>
-
-
-	</div>
 </body>
 
 
