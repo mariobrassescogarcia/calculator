@@ -27,9 +27,3 @@ class Calculator
 	end
 
 end
-
-
-puts Calculator.new.add(2,1)
-puts Calculator.new.substract(2,1)
-puts Calculator.new.multiply(2,1)
-puts Calculator.new.divide(2,1)
