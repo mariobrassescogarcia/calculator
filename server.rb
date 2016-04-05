@@ -1,7 +1,7 @@
 require "sinatra"
 require "sinatra/reloader"
 require "pry"
-# require "lib/calculator"
+require "lib/calculator"
 
 
 get "/" do
